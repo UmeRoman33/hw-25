@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript While Loop</h2>
+    <h4>Odd numbers between 60 till 80</h4>
+    <p id="number"></p>
+    <script>
+        var text = "";
+        var i = 61;
+        while (i <= 80) {
+            text += "<br>The number is " + i;
+            i+=2;
+        }
+        document.getElementById("number").innerHTML = text;
+    </script>
+
+<h4>Evem numbers between 15 till 30</h4>
+<p id="numberrr"></p>
+<script>
+    var text = "";
+    var i = 16;
+    while (i <= 30) {
+        text += "<br>The number is " + i;
+        i+=2;
+    }
+    document.getElementById("numberrr").innerHTML = text;
+</script>
+</body>
+</html>
